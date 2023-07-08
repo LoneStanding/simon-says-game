@@ -1,0 +1,27 @@
+body{
+    height: 90vh;
+    background-image: url(images/Start_Reactor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+.title{
+    text-align: center;
+    color: white;
+}
+
+.btn{
+    width: 75px;
+    height: 75px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 75px);
+    grid-template-rows: repeat(3, 75px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 137px;
+}
+
