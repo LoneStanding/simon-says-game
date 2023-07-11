@@ -43,3 +43,8 @@ h1{
     gap: 10px;
 }
 
+.over{
+    background-color: #E21818;
+    color: #0000;
+    text-shadow: #FFFF 2px -2px;
+}
