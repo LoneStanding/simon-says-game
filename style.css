@@ -1,27 +1,45 @@
 body{
-    height: 90vh;
-    background-image: url(images/Start_Reactor.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: black;
+    background-color: #468B97;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
 }
 
 .title{
     text-align: center;
-    color: white;
+    color: #EF6262;
+    text-shadow: #F3AA60 2px -2px;
+    margin: 2em 0;
+}
+
+.box{
+    margin: 2em 0;
+    height: 20em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .btn{
-    width: 75px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #9DB2BF;
+    border-color: #526D82;
+    box-shadow: #526D82 10px 10px ;
+}
+
+.clicked{
+    background-color: #16FF00;
 }
 
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(3, 75px);
-    grid-template-rows: repeat(3, 75px);
+    grid-template-columns: repeat(3, 90px);
+    grid-template-rows: repeat(3, 90px);
     gap: 10px;
-    justify-content: center;
-    margin-top: 137px;
 }
 
